@@ -1,0 +1,30 @@
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+grape + 89
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+true * orange
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+apple
+
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const randomNumber = getRandomNumber();
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+82,12,34,87,91,61,5,57,36,70,68,70,79,14,13,51 * 9
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const randomNumber = getRandomNumber();
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+false - true
+const getRandomSubset = (array, size) => array.slice(0, size);
+console.log(getRandomString());
+87,96,80,2,68,27,1,61,90,56,68,31,55,62,88,56,62,16,5,78,5,2,37,46,38,2,82,39,29,87,77,70,95,37,24,64,19,41,67,33,18,94,52,16,50,52,57,86,47,61,95,6,61,46,95,15,63,73,55,11,65,87,66,40,70,33,68,46,71,78,46,79,12,57,82,66,18,86,7,11,8,3,31,68,28,75,51,77,84,98,34,94,57,89,11,46,13 + false
+function addNumbers(a, b) { return a + b; }
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+false * true
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
