@@ -1,0 +1,112 @@
+console.log(getRandomString());
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const getRandomElement = array => array[getRandomIndex(array)];
+65 - true
+const capitalizeString = str => str.toUpperCase();
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+grape + banana
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+apple + 81
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+banana
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+70,22,11,55,68,0,78,86,42,49,5,2,40,4,34,80,82,68,72,54,59,99,12,60,70,65,39,1,58,41,49,67,91,82,31,77,29,7,5,63,31,10,48,33,26,31,59,77,69,8,31,81,77,92,59,73,78,74,79,62,44,18,4,69,69,95,80,80,32,67,44,6,42,10,89,65,99 * false
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const variableName = getRandomNumber();
+86 + 10
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+false * 47
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+true - 81,56,64,34,93,43,30,54,68,5,62,66,88,87,25,39,38,22,40,21,64,41,30,24
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+kiwi
+
+const variableName = getRandomNumber();
+kiwi + 51,66,37,84,95,75,29,23,91,62,51,90,43,20,81,28,57,46,42,69,26,73,85,93,93,41,65,0,98,30,17,15,60,48,24,96,17,68,24,13,8,7,97,11,46,15,85,73,66,10,69,69,33,58,19,2,30,52,49,65,32,13,90,86,77,47,57,91,6,16,84,77,84,0,83,0,78,21,20,65,85,81,44,45,28,2,81,77,2,23,37,59,43,93,2,81,54
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+true + orange
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+apple - 71,58,14,29,11,66,88,98,46,7,10,48,36,79,98,83,87,26,29,81,86,57,1,26,36,41,68,36,71,14,10,73,46,83,18,3,65,14,18,33,55,82,65,49,40,71,37,88,92,47,55,91,10,42,44,29,3,81,33,68,68,97,3,83,27,18,60,79,77,80,70,28,70,49,28,59,0,42,51,44,90,61,94,20,82
+const isEven = num => num % 2 === 0;
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+orange * 69,97,92,89
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+false / 16,31,46,59,92,7,70,91,48,99,18,36,54,39,32,14,24,86,9,21,50,80,13,90,69,38,6,16,53,33,97,57,55,16,64,56,80,4,32,55,51,84,38,49,45,17,39,61,95,5,41,37,45,19,31
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const findLargestNumber = numbers => Math.max(...numbers);
+55 * 24
+function addNumbers(a, b) { return a + b; }
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const isPalindrome = str => str === str.split("").reverse().join("");
+banana / false
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+kiwi * false
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+true + 95
+const isEven = num => num % 2 === 0;
+grape
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+true + banana
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+false + apple
+
+const squareRoot = num => Math.sqrt(num);
+orange
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+16,92,16,8,28,33,25,88,82,66,65,37,98,67,9,5,29,98,69,92,71,84,6,71,2,43,75,43,35,81,69,99,60,33,48,91,38,64,12,81,46,80,91,28,89,62,30,91,72,69,20,29,1,46,69,21,18,55,38,26,82,21,39,42,76,81,57,6,39,82,49,87,67,96,50,65,37,12 + 63,84,52,80,40,28,1,46,94,96,49,92,51,35,17,66,78,22,63,93,30,82,33
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+grape
+
+
+const squareRoot = num => Math.sqrt(num);
+
+49,28,39,21,69,23,75,87,56,60,95,77,50,58,43,42,49,62,5,31,30,86,76,7,76,58,82,85,60,25,88,45,69,5,82,53,87,0,22,96,78,54,20,6,92,57,53,29,28,61,42,51,3,55,80,63,27,20,14,54,18,89,21,17,34,89,73,2,94,49,27,17,14,50,97,65,83,34,30,39,47,37,7,35,80,63,17,71,88 / 69
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const greet = name => `Hello, ${name}!`;
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+const getRandomElement = array => array[getRandomIndex(array)];
+
+apple
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+71 + false
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+30,33,39,19,57,77,38,21,38,70,71,64,85,2,96,32,32,49,34,15,57,51,20,80,31,67,75,71,38,91,2,82,81,72,11,9,85,34,41,42,12,42,12,33,47,8,54,2,23,55,96,4,49,69,1,2,28,3,75,96,92,6,63,83,62 + 18
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+function addNumbers(a, b) { return a + b; }
+class MyClass { constructor() { this.property = getRandomString(); } }
+5,42,24,60,1,87,44,33,47,29,30,67,12,83,85,29,44,81,99,19,20,9,5,18,77,24,39,20,16,74,23,98,55,28,77,91,30,40,63,50,62,5,18,56,84,81,98,19,72,91,44,87,89,14,96,99,81,52,67,10,79,60,44,30,19,15,13,10,87,36,7,98,71,72,45,59,64,30,69,42,85,77,61,99,4,2,21,30,33,91,75,16,9,37,53,98,63 - 65
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
