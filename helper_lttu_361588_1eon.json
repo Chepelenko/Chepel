@@ -1,0 +1,9 @@
+false / 40
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+true - false
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
